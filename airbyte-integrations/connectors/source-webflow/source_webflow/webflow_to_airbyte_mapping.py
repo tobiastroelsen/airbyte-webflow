@@ -23,6 +23,7 @@ class WebflowToAirbyteMapping:
         "ImageRef": {"type": ["null", "object"], "additionalProperties": True},
         "ItemRef": {"type": ["null", "string"]},
         "ItemRefSet": {"type": ["null", "array"]},
+        "Set": {"type": ["null", "array"]},
         "Link": {"type": ["null", "string"]},
         "Number": {"type": ["null", "number"]},
         "Option": {"type": ["null", "string"]},
